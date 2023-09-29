@@ -1,0 +1,23 @@
+###
+
+POST http://localhost/api_project/
+
+{
+    "nom":"Xiaomi",
+    "description":"Téléphone de Oliver Riche",
+    "prix":"0,77",
+    "categories_id":"2",
+    "action":"produits"
+}
+
+###
+
+GET http://localhost/api_project/produitsliste/
+
+# {
+#     "nom":"Xiaomi",
+#     "description":"Téléphone de Oliver Riche",
+#     "prix":"0,77",
+#     "categories_id":"2",
+#     "action":"produits"
+# }
